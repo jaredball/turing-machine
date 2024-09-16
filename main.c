@@ -91,8 +91,8 @@ int main() {
     }
 
     // Display the initial tape contents
-    //printf("Initial Tape contents: ");
-    //print_tape();
+    printf("Initial Tape contents: ");
+    print_tape();
 
     // Variables to store Turing Machine information (states, start/end states)
     int states, start_state;
@@ -103,19 +103,19 @@ int main() {
     // Read the number of states from the second line of the file
     if (fgets(info_lines, sizeof(info_lines), file) != NULL) {
         sscanf(info_lines, "%d", &states);
-        //printf("Number of states: %d\n", states);
+        printf("Number of states: %d\n", states);
     }
 
     // Read the start state from the third line of the file
     if (fgets(info_lines, sizeof(info_lines), file) != NULL) {
         sscanf(info_lines, "%d", &start_state);
-        //printf("Start state: %d\n", start_state);
+        printf("Start state: %d\n", start_state);
     }
 
     // Read the end state from the fourth line of the file
     if (fgets(info_lines, sizeof(info_lines), file) != NULL) {
         sscanf(info_lines, "%d", &end_state);
-        //printf("End state: %d\n", end_state);
+        printf("End state: %d\n", end_state);
     }
 
     // Initialize the instructions array for the Turing Machine
@@ -210,7 +210,7 @@ int main() {
 
     //Don't make changes in the following lines
     //To make the test code work, please comment out all the printf statements before pushing to GitHub.
-    printf("Final tape contents:");
+    printf("Final tape contents: ");
     print_tape();
 
 //------------------------------------------------------------------------------------
