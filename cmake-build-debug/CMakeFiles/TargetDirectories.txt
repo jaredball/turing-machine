@@ -1,3 +1,0 @@
-/Users/jared/CLionProjects/TuringMachine/cmake-build-debug/CMakeFiles/TuringMachine.dir
-/Users/jared/CLionProjects/TuringMachine/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jared/CLionProjects/TuringMachine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
